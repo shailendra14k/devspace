@@ -1,0 +1,10 @@
+kind: Namespace
+apiVersion: v1
+metadata:
+  name: teamb-user2
+  labels:
+    app.kubernetes.io/part-of: che.eclipse.org
+    app.kubernetes.io/component: workspaces-namespace
+    team: teamb
+  annotations:
+    che.eclipse.org/username: user2

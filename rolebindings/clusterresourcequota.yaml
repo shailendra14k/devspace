@@ -1,0 +1,19 @@
+apiVersion: quota.openshift.io/v1
+kind: ClusterResourceQuota
+metadata:
+  name: devspace
+spec:
+  selector:
+    labels:
+      matchLabels:
+        team: teama
+  quota:
+    hard:
+      persistentvolumeclaims: "2"
+      requests.storage: 100Gi
+      limits.cpu: "10"       
+      requests.memory: "50Gi" 
+      configmaps: "100"       
+      secrets: "75"         
+      services: "15"         
+      routes.route.openshift.io: "10" 

@@ -3,3 +3,5 @@ kind: Kustomization
 resources:
   - ns-teama-user1.yaml
   - ns-teamb-user2.yaml
+  - ns-teama-user3.yaml
+  - ns-teamb-user4.yaml

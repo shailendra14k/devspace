@@ -15,5 +15,4 @@ spec:
       requests.memory: "50Gi" 
       configmaps: "100"       
       secrets: "75"         
-      services: "15"         
-      routes.route.openshift.io: "10" 
+      services: "15"  

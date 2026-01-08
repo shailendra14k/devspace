@@ -10,8 +10,7 @@ spec:
   quota:
     hard:
       persistentvolumeclaims: "2"
-      requests.storage: 100Gi
-      limits.cpu: "10"       
+      requests.storage: 100Gi     
       requests.memory: "50Gi" 
       configmaps: "100"       
       secrets: "75"         
